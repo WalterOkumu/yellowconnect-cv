@@ -20,8 +20,8 @@ export default function Home() {
           <Hero />
         </div>
         <PacoteList />
-        <Lead />
-        <Testimonials />
+        {/*<Lead />
+        <Testimonials />*/}
       </main>
 
     </div>

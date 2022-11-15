@@ -1,9 +1,10 @@
+import { Fragment } from 'react';
 import styles from '../styles/Home.module.css';
 
 export default function Lead() {
     return(
-        <section id='sectionInfo' className="mt-40 mx-auto md:w-2/4 px-5">
-            <h3 className="text-3xl mb-12 font-bold text-center">
+        <Fragment>
+            <h3 className="text-3xl md:text-4xl mb-8 md:w-[100%] font-bold md:text-left text-center">
                 Preencha os campos abaixo para obter a informação desejada gratuitamente
             </h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
@@ -62,6 +63,6 @@ export default function Lead() {
                     </div>
                 </div>
                 </div>
-        </section>
+        </Fragment>
     );
 }
