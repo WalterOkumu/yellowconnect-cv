@@ -27,8 +27,8 @@ export default function PacoteList() {
         <section className="mt-32 flex flex-col justify-center items-center mx-auto md:w-1/2 w-full">
             <h1 className="px-7 md:px-0 text-5xl font-bold md:inline-block p-2 rounded-md text-[#070707] text-center">Aposte cada vez mais no digital </h1>
                 <h2 className="mt-5 mb-4 px-16 md:px-0 text-center md:w-[27rem] text-3xl font-light italic">
-                    <span className="font-bold">Promote your business in print and digital! </span>
-                        With the Yellow Connect package.</h2>
+                    <span className="font-bold">Divulgue seu negócio no print e no digital! </span>
+                        Com o pacote Yellow Connect.</h2>
                 <div className="pt-5">
                     <p className="px-16 md:px-0 text-justify leading-relaxed font-medium">
                         Para quem quer reivindicar uma share deste mercado em constante mudança, 
