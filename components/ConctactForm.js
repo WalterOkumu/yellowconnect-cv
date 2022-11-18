@@ -1,7 +1,7 @@
 
 export default function ContactForm() {
     return (
-          <section id='sectionInfo' className="mt-40 mx-auto md:w-2/4 px-5">
+          <section id='forminfo' className="mt-40 mx-auto md:w-2/4 px-5">
             <h3 className="text-3xl mb-12 font-bold text-center">
                 Preencha os campos abaixo para obter a informação desejada gratuitamente
             </h3>

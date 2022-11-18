@@ -9,7 +9,7 @@ import Testimonials from '../components/Testimonial'
 export default function Home() {
   return (
     <div className='pb-10'>
-        <div className='pt-8 md:h-screen px-10 bg-[#181818]'>
+        <div className='pt-8 md:h-screen px-10 bg-[#181818]' id='sectionInfo'>
           <Header />
           <Hero />
         </div>

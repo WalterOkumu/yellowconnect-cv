@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Lead() {
     return(
-        <Fragment>
+        <div id="info">
             <h1 className="text-center md:text-left md:px-0 text-5xl font-bold md:inline-block py-2 rounded-md text-[#FFF]">Aposte cada vez mais no digital </h1>
             <h3 className="text-[1rem] mb-8 md:w-[100%] md:text-left text-center">
                 Preencha os campos abaixo para obter mais vantagens com o nosso serviço
@@ -64,6 +64,6 @@ export default function Lead() {
                     </div>
                 </div>
                 </div>
-        </Fragment>
+        </div>
     );
 }
