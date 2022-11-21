@@ -6,7 +6,7 @@ export default function Lead() {
         <div id="info">
             <h1 className="text-center md:text-left md:px-0 text-5xl font-bold md:inline-block py-2 rounded-md text-[#FFF]">Aposte cada vez mais no digital </h1>
             <h3 className="text-[1rem] mb-8 md:w-[100%] md:text-left text-center">
-                Preencha os campos abaixo para obter mais vantagens com o nosso serviço
+                Preencha os campos abaixo para obter a nossa oferta especial Black Friday
             </h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
