@@ -4,11 +4,11 @@ import styles from '../styles/Home.module.css';
 export default function Lead() {
     return(
         <div id="info">
-            <h1 className="text-center md:text-left md:px-0 text-5xl font-bold md:inline-block py-2 rounded-md text-[#FBED04]">
+            <h1 className="md:px-0 text-5xl font-bold md:inline-block py-2 rounded-md text-[#FBED04]">
                 Aposte cada vez mais no digital com o nosso pacote Yellow Connect
             </h1>
-            <h3 className="text-[1rem] mb-8 md:w-[100%] md:text-left text-center">
-                Preencha os campos abaixo para obter a nossa oferta especial Black Friday
+            <h3 className="text-[1rem] mb-8 md:w-[100%] font-bold">
+                Preencha os campos abaixo para obter uma oferta especial de 30% de desconto
             </h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
@@ -49,9 +49,9 @@ export default function Lead() {
                                 </div>
                             </div>
                             <div className="ml-form-fieldRow ml-last-item">
-                            <div className="ml-field-group ml-field-company">
-                                <input aria-label="company" type="text" className="form-control" data-inputmask="" name="fields[company]" placeholder="Empresa" autoComplete="" />
-                            </div>
+                                <div className="ml-field-group ml-field-company">
+                                    <input aria-label="company" type="text" className="form-control" data-inputmask="" name="fields[company]" placeholder="Empresa" autoComplete="" />
+                                </div>
                             </div>
                         </div>
                         <input type="hidden" name="ml-submit" value="1" />

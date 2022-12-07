@@ -26,7 +26,7 @@ export default function Hero() {
                     <Lead />
                 </div>
                 <div className="md:w-1/2 w-full self-center">
-                    <Image src={heroImage}  alt="Lista telefónica" className="object-contain" layout="responsive" priority/>
+                    {/*<Image src={heroImage}  alt="Lista telefónica" className="object-contain" layout="responsive" priority/>*/}
                 </div>
              </div>
         </div>

@@ -9,7 +9,7 @@ import Testimonials from '../components/Testimonial'
 export default function Home() {
   return (
     <div className='pb-10'>
-        <div className='pt-8 md:h-screen px-10 bg-[#181818]' id='sectionInfo'>
+        <div className="pt-8 md:h-screen px-10 bg-no-repeat bg-cover bg-center bg-[url('../public/background-hero-mobile.png')] xl:bg-[url('../public/background-hero.png')]">
           <Header />
           <Hero />
         </div>
