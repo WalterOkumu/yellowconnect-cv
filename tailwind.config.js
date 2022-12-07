@@ -8,6 +8,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero': "url('/background-hero.png')",
+        'heroMobile': "url('/background-hero-mobile.png')",
+      },
       fontFamily: {
         "Roboto": ["Roboto", ...defaultTheme.fontFamily.sans],
       },
